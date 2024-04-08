@@ -23,11 +23,8 @@ class MyProjectClass {
 }
 
 function main() {
-  // create an instance of the class
-  let myInstance = new MyProjectClass("value1", "value2");
-
-  // call a method on the instance
-  myInstance.myMethod();
+  $("#box").text(story);
+  $("#clicker").click(generate);
 }
 
 // let's get this party started - uncomment me
